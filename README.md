@@ -1,2 +1,2 @@
 # simple-ruby
-Simple Ruby Stuff
+Simple Ruby Stuff - you need just an environment with ruby
