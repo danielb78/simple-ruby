@@ -12,3 +12,5 @@ sorted = counts.sort_by { |word, count| count }
 top_5 = sorted.last(5)
 
 4.downto(0) { |i| p "#{top_5[i][0]}: #{top_5[i][1]}" }
+p top_5.map { |v| "#{v[0]}: #{v[1]}" }    # ["for: 2", "word: 2", "use: 2", "the: 3", "a: 6"]
+top_5.each  { |v| p "#{v[0]}: #{v[1]}" }
