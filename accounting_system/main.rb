@@ -10,5 +10,5 @@ trans.transfer(50)
 puts "checking: #{checking.balance}, saving: #{saving.balance}"
 puts saving.greather_balance_than?(checking) ? "yes" : "no"
 
-# run 'ruby main.rb'
+# run 'ruby infinite_select.rb'
 # result will be: 'checking: 50, saving: 250'
